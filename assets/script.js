@@ -2,6 +2,7 @@
 var m = moment();
 
 // get today's date to display when page is loaded
+//source: "Javascript/JQuery Jon Duckett"
 $("#currentDay").text(moment().format('MMMM Do, YYYY'));
 
 $(document).ready( function() {
@@ -49,6 +50,7 @@ $(".saveBtn").click(function() {
 });
 
     // get and set event text input
+    //source: gitHub 
 function renderText () {
 
     var saveEventText9 = JSON.parse(localStorage.getItem("9:00 am"));
