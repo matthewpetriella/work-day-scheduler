@@ -37,6 +37,7 @@ function colorChange () {
 var eventText;
 var eventTime;
 
+//source: Javasctip and Jquery - Jon Duckett, Wiley publications"
 $(".saveBtn").click(function() {
     eventText = $(this).siblings(".input").val();
     console.log(eventText);
