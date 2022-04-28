@@ -20,53 +20,54 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p><span id="currentDay"></span></p>
     </header>
-    <!--Time Blocks-->
-    <div class="container">
-        <div class="row">
-          <div class ="col-1 hour time-block">9:00 am</div>
-          <textarea id="9" class="col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>  
+    <!--source:https://stackoverflow.com/questions/62904905/how-do-i-color-code-time-blocks-using-js -->
+    <div class = "container">
+      <div class = "row my-row">
+          <div class = "col my-col col-a1" id = "9"> 9am </div>
+          <div class = "col my-col col-a2 edit_cont" > </div>
+          <div class = "col my-col col-a3 edit_btn"> edit </div>
+      </div>
+      <div class = "row my-row" >
+          <div class = "col my-col col-b1" id = "10"> 10am </div>
+          <div class = "col my-col col-b2 edit_cont">  </div>
+          <div class = "col my-col col-b3 edit_btn"> edit </div>
+      </div>
+      <div class = "row my-row" >
+          <div class = "col my-col col-c1" id = "11" > 11am </div>
+          <div class = "col my-col col-c2 edit_cont">  </div>
+          <div class = "col my-col col-c3 edit_btn"> edit </div>
+      </div>
+        <div class = "row my-row">
+            <div class = "col my-col col-a1" id = "12"> 12pm </div>
+            <div class = "col my-col col-a2 edit_cont" > </div>
+            <div class = "col my-col col-a3 edit_btn"> edit </div>
         </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">10:00 am</div>
-          <textarea id="10" class=" col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+        <div class = "row my-row" >
+            <div class = "col my-col col-b1" id = "13"> 1pm </div>
+            <div class = "col my-col col-b2 edit_cont">  </div>
+            <div class = "col my-col col-b3 edit_btn"> edit </div>
         </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">11:00 am</div>
-          <textarea id="11" class="col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+        <div class = "row my-row" >
+            <div class = "col my-col col-c1" id = "14" > 2pm </div>
+            <div class = "col my-col col-c2 edit_cont">  </div>
+            <div class = "col my-col col-c3 edit_btn"> edit </div>
         </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">12:00 pm</div>
-          <textarea id="12" class=" col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
-        </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">1:00 pm</div>
-          <textarea id="13" class=" col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
-        </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">2:00 pm</div>
-          <textarea id="14" class="col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
-        </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">3:00 pm</div>
-          <textarea id="15" class=" col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
-        </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">4:00 pm</div>
-          <textarea id="16" class=" col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
-        </div>
-        <div class="row">
-          <div class ="col-1 hour time-block">5:00 pm</div>
-          <textarea id="17" class=" col-8 input"></textarea>
-          <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
-        </div>
+        <div class = "container" spellcheck="false">
+          <div class = "row my-row">
+              <div class = "col my-col col-a1" id = "15"> 3pm </div>
+              <div class = "col my-col col-a2 edit_cont" > </div>
+              <div class = "col my-col col-a3 edit_btn"> edit </div>
+          </div>
+          <div class = "row my-row" >
+              <div class = "col my-col col-b1" id = "16"> 4pm </div>
+              <div class = "col my-col col-b2 edit_cont">  </div>
+              <div class = "col my-col col-b3 edit_btn"> edit </div>
+          </div>
+          <div class = "row my-row" >
+              <div class = "col my-col col-c1" id = "17" > 5pm </div>
+              <div class = "col my-col col-c2 edit_cont">  </div>
+              <div class = "col my-col col-c3 edit_btn"> edit </div>
+          </div>
     </div>
       
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
