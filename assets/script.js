@@ -2,6 +2,7 @@
 var m = moment();
 
 // get today's date to display when page is loaded
+//source: "Javascript/JQuery Jon Duckett"
 $("#currentDay").text(moment().format('MMMM Do, YYYY'));
 
 $(document).ready( function() {
@@ -37,7 +38,7 @@ function colorChange () {
 var eventText;
 var eventTime;
 
-//source: Javasctip and Jquery - Jon Duckett, Wiley publications"
+//source: Javascript and Jquery - Jon Duckett, Wiley publications"
 $(".saveBtn").click(function() {
     eventText = $(this).siblings(".input").val();
     console.log(eventText);
